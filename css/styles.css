@@ -1,0 +1,29 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0; }
+
+#main {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-position: center; }
+  #main .main-brand, #main .main-contact {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    float: left;
+    padding-top: 2em;
+    padding-left: 10em; }
+  #main h1 {
+    font-size: 1.5em;
+    display: inline; }
+    #main h1:before {
+      content: '\f19c';
+      font-family: FontAwesome;
+      font-size: .8em;
+      color: #ecd407;
+      padding-right: .3em; }
